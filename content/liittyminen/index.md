@@ -22,7 +22,7 @@ Konttipaikka 60 euroa (konttivastaava hoitaa)
 
 Kannatusjäsenmaksu 10 euroa tai enemmän
 
-Erilistä jäseneksi liittymisen maksua ei peritä
+Erillistä jäseneksi liittymisen maksua ei peritä
 
 Koko kauden jäsenyyteen oikeuttava jäsenmaksu sekä <a href="ilmoitukset/yhdistyksenvuosikokouspidettiinkoleassasaeaessae.html" target="_blank">konttipaikan jatkovuokra on maksetava 31.5.20xx mennessä</a> yhdistyksen tilille.
 

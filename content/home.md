@@ -1,4 +1,5 @@
 +++
+title="Etusivu - Kallvik Surf Ry"
 +++
 # Kallvik Surf Ry
 

@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<title>Kallvik Surf Ry</title>
+	<title>
+	    {% if section.title %}{{ section.title }}{% endif %}
+	    {% if page.title %}{{ page.title }}{% endif %}
+	</title>
 	<meta charset="utf-8">
-	<meta name="title" content="Kallvik Surf R." />
+	<meta name="title" content="Kallvik Surf Ry" />
 	<meta name="description" content="Kallvik, surf, purjelauta, purjelautailu, surffaus, kite, windsurf, sup, silversand" />
 	<meta property="og:title" content="Kallvik Surf" />
 	<meta property="og:url" content="https://kallviksurf.fi" />
@@ -59,10 +62,10 @@
 	    <div class="navi">
 		<ul role="navigation">
 		    <li>
-			<div>Etusivu</div>
+			<div><a href="/">Etusivu</a></div>
 		    </li>
 		    <li>
-			<div><a href="ilmoitukset.html">Ilmoitukset</a></div>
+			<div><a href="ilmoitukset">Ilmoitukset</a></div>
 		    </li>
 		    <li>
 			<div><a href="toiminta">Toiminta</a></div>

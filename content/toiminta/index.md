@@ -3,7 +3,7 @@ title="Toiminta - Kallvik Surf Ry"
 +++
 
 
-<title>Toiminta - Kallvik Surf ry.</title>
+# Toiminta 
 
 Toiminta luonnonvoimaisilla harrastevälineillä on egologista ja luonnon läheistä. Siksi pidämme harrastusalueemme Kallahden niemellä siistinä ja varjelemme luontoarvoja, joita harrastusalueemme läheisyydessä on.
 

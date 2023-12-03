@@ -2,7 +2,8 @@
 title="Liittyminen ja jäsenmaksut - Kallvik Surf Ry"
 +++
 
-<title>Liittyminen ja jäsenmaksut - Kallvik Surf ry.</title>
+# Liittyminen ja jäsenmaksut
+
 Oletko kiinnostunut liittymään jäseneksi?
 
 Kallvik Surf ry tarjoaa sinulle ja perheellesi erinomaisen mahdollisuuden harrastaa tätä ihanan virkistävää lajia helposti ja vaivatta Helsingissä Kallahden niemellä.
@@ -29,21 +30,19 @@ Jäsenmaksut maksetaan pankkisiirrolla pankkiin:
 
 Jäsenmaksutiedot
 
-Kallvik Surf ry pankkiyhteystiedot
+Kallvik Surf ry pankkiyhteystiedot:
 
-Nordea tili: FI79 2339 1800 0350 04
-
-<b>BIC/SWIFT:</b>&nbsp;NDEAFIHH
+<dl>
+<dt>Nordea tili:</dt><dd>FI79 2339 1800 0350 04</dd>
+<dt>BIC/SWIFT:</dt><dd>NDEAFIHH </dd>
+</dl>
 
 Maksun viestiosaan kirjataan:
 
-Sukunimi Etunimi
-
-Katuosoite, POSTINO
-
-Puhelinnumero
-
-Sähköpostiosoite
+Sukunimi Etunimi<br>
+Katuosoite, POSTINO<br>
+Puhelinnumero<br>
+Sähköpostiosoite<br>
 
 Liittymällä yhdistykseen sitoudut myös <a href="dokumentit/Kallvik_Surf_S%C3%A4%C3%A4nn%C3%B6t.pdf" target="_blank">yhdistyksen sääntöjen</a> noudattamiseen.
 

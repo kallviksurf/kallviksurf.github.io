@@ -2,6 +2,8 @@
 title="Ilmoitukset - Kallvik Surf Ry"
 +++
 
+# Ilmoitukset
+
 <div class="announcements">
 <div class="announcement">
 <h4><a href="ilmoitukset/2652021klo1700kallviksurfryvuosik-51ff0b8d62973852.html" dir="ltr">26.5.2021 klo 17:00 Kallviksurf ry vuosikokous ja kevättalkoot</a></h4><span class="timestamp">

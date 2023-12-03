@@ -10,7 +10,7 @@ Seura on perustettu vuonna 1985 itähelsinkiläisten aktiivisurffareiden johdoll
 harjoitella yhdistyksen laudoilla ja varusteilla sekä saada opastusta välineiden oikeassa ja turvallisessa käytössä.
 
 <div class="bigbtn">
-    <a href="liittyminen.html">
+    <a href="liittyminen">
 	<b style="color:rgb(191,144,0)"><u>-LIITY NYT JÄSENEKSI-</u></b>
     </a>
 </div>

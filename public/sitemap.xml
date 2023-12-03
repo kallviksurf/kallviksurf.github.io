@@ -4,9 +4,15 @@
         <loc>https://kallviksurf.fi/</loc>
     </url>
     <url>
-        <loc>https://kallviksurf.fi/hero/</loc>
+        <loc>https://kallviksurf.fi/home/</loc>
     </url>
     <url>
-        <loc>https://kallviksurf.fi/yhteystiedot/</loc>
+        <loc>https://kallviksurf.fi/ilmoitukset/</loc>
+    </url>
+    <url>
+        <loc>https://kallviksurf.fi/liittyminen/</loc>
+    </url>
+    <url>
+        <loc>https://kallviksurf.fi/toiminta/</loc>
     </url>
 </urlset>

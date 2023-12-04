@@ -10,8 +10,9 @@ Kallvik surffin jampat valloitivat Frozen beachin Tuomon kanssa.
 
 Pääkaupunkiseudun suurin tunturi Frozen beach ja lumi pöllyää lautojen ja suksien alla.
 
-<a href="http://www.youtube.com/watch?v=ZAZFhdR8-wI" imageanchor="1"><img border="0" height="221" src="Videot/Frozen%20beach.JPG" width="400" /></a>
-<div class="sites-embed-border-on sites-embed" style="width:425px;">
+<a href="http://www.youtube.com/watch?v=ZAZFhdR8-wI" >
+    <img class="thumb" src="Frozen%20beach.JPG" />
+</a>
 
 ## Kalsu Arin kypäräkameralla 04
 <div>

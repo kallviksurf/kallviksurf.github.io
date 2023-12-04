@@ -1,6 +1,7 @@
 +++
-title="Etusivu - Kallvik Surf Ry"
+title="Etusivu"
 +++
+
 # Kallvik Surf Ry
 
 Kalsu on Suomen suurin surfseura, jonka toiminnassa on mukana n. 200 surffaria. Seura toimii 

@@ -1,5 +1,5 @@
 +++
-title="Ilmoitukset - Kallvik Surf Ry"
+title="Ilmoitukset"
 +++
 
 # Ilmoitukset

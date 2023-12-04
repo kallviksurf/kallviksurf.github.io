@@ -1,5 +1,5 @@
 +++
-title="Toiminta - Kallvik Surf Ry"
+title="Toiminta"
 +++
 
 

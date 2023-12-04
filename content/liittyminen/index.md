@@ -1,5 +1,5 @@
 +++
-title="Liittyminen ja jäsenmaksut - Kallvik Surf Ry"
+title="Liittyminen ja jäsenmaksut"
 +++
 
 # Liittyminen ja jäsenmaksut

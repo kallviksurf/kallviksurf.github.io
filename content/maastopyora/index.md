@@ -1,5 +1,5 @@
 +++
-title="Maastopyörälenkit - Kallvik Surf Ry"
+title="Maastopyörälenkit"
 +++
 
 # Maastopyörälenkit

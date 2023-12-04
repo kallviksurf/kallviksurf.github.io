@@ -4,11 +4,11 @@ title="Yhteystiedot"
 
 # Yhteystiedot
 
-<a href="yheystiedot/Kalsu-tarra-talvi.gif" imageanchor="1">
-<img border="0" height="200" src="yheystiedot/Kalsu-tarra-talvi.gif" width="172" />
+<a href="Kalsu-tarra-talvi.gif" imageanchor="1">
+<img border="0" height="200" src="Kalsu-tarra-talvi.gif" width="172" />
 </a>
-<a href="yheystiedot/Kalsu-tarra-kesa.gif" imageanchor="1">
-<img border="0" height="200" src="yheystiedot/Kalsu-tarra-kesa.gif" width="169" />
+<a href="Kalsu-tarra-kesa.gif" imageanchor="1">
+<img border="0" height="200" src="Kalsu-tarra-kesa.gif" width="169" />
 </a>
 
 Yhdistyksen sähköpostiosoite: &#107;&#97;&#108;&#108;&#118;&#105;&#107;&#115;&#117;&#114;&#102;&#46;&#114;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;

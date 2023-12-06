@@ -4,16 +4,12 @@ title="Yhteystiedot"
 
 # Yhteystiedot
 
-<a href="Kalsu-tarra-talvi.gif" imageanchor="1">
-<img border="0" height="200" src="Kalsu-tarra-talvi.gif" width="172" />
-</a>
-<a href="Kalsu-tarra-kesa.gif" imageanchor="1">
-<img border="0" height="200" src="Kalsu-tarra-kesa.gif" width="169" />
-</a>
+![Image](Kalsu-tarra-talvi.gif#small)
+![Image](Kalsu-tarra-kesa.gif#small)
 
 Yhdistyksen sähköpostiosoite: &#107;&#97;&#108;&#108;&#118;&#105;&#107;&#115;&#117;&#114;&#102;&#46;&#114;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
 
-<a href="liittyminen">Seuran jäsenmaksutili:</a>
+[Seuran jäsenmaksutili](/liittyminen):
 Kallvik Surf ry: Nordea 233918-35004
 
 Osoite Helsingissä: 

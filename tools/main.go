@@ -12,8 +12,30 @@ import (
 
 func main() {
 
+	var args = os.Args
+
+	if len(args) < 2 {
+		var file = "test.html"
+		var err = processFile(file)
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+
+	for i := 1; i < len(args); i++ {
+		var file = args[i]
+		fmt.Printf("processing file: %s", file)
+		var err = processFile(file)
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+}
+
+func processFile(file string) error {
+
 	// load the html file
-	var file = "test.html"
+	//var file = "test.html"
 	r, err := os.Open(file)
 	if err != nil {
 		log.Fatal(err)
@@ -102,4 +124,8 @@ date="%s"
 
 	fmt.Println(md)
 
+	var outputFile = fmt.Sprintf("%s-%s.md", timestamp.Format("2006-02-01"), file)
+	// write to file
+	fmt.Printf("writing to file %s", outputFile)
+	return os.WriteFile(outputFile, []byte(md), 0644)
 }

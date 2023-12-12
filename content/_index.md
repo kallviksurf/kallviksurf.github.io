@@ -10,11 +10,7 @@ sekä Kallvikissa että Hangossa.
 Seura on perustettu vuonna 1985 itähelsinkiläisten aktiivisurffareiden johdolla. Kallvik Surf ry:n jäsenillä on mahdollisuus testata ja 
 harjoitella yhdistyksen laudoilla ja varusteilla sekä saada opastusta välineiden oikeassa ja turvallisessa käytössä.
 
-<div class="bigbtn">
-    <a href="liittyminen">
-	<b style="color:rgb(191,144,0)"><u>-LIITY NYT JÄSENEKSI-</u></b>
-    </a>
-</div>
+<a href="liittyminen" class=bigbtn> -LIITY NYT JÄSENEKSI-</a>
 
 <b>Tiedoitukset ja keskustelut löytyvät seuran 
     <a href="https://www.facebook.com/groups/115506131814051">Facebook</a> sivuilta

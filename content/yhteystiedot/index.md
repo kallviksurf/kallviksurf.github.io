@@ -70,8 +70,8 @@ Hangossa surffaustoiminta keskittyy Tulliniemeen.<br />
 </tr>
 <tr>
 <td>Konttivastaava</td>
-<td>Mika Jyrkämö</td>
-<td>&#43;&#52;&#43;&#32;&#55;&#49;&#53;&#32;&#55;&#49;&#49;&#50;</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>

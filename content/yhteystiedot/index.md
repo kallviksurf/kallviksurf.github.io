@@ -72,7 +72,7 @@ Hangossa surffaustoiminta keskittyy Tulliniemeen.<br />
 <td>Konttivastaava</td>
 <td>Mikko Simula</td>
 <td>+4+ 544 8448</td>
-<td></td>
+<td>mikkosimula@hotmail.com</td>
 </tr>
 </tbody>
 </table>

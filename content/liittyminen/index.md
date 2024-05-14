@@ -14,17 +14,17 @@ Rakastuttuasi lajiin alkaa ehkä jopa omien harrastusvälineiden ostohimo kasvaa
 
 Jäsenmaksut kaudelle
 
-Jäsenmaksu 20 euroa
+Jäsenmaksu 30 euroa
 
 Perhejäsenmaksu 35 euroa - Juniorit 10 euroa
 
-Konttipaikka 60 euroa (konttivastaava hoitaa)
+Konttipaikka 70 euroa (konttivastaava hoitaa)
 
 Kannatusjäsenmaksu 10 euroa tai enemmän
 
 Erillistä jäseneksi liittymisen maksua ei peritä
 
-Koko kauden jäsenyyteen oikeuttava jäsenmaksu sekä <a href="ilmoitukset/yhdistyksenvuosikokouspidettiinkoleassasaeaessae.html" target="_blank">konttipaikan jatkovuokra on maksetava 31.5.20xx mennessä</a> yhdistyksen tilille.
+Koko kauden jäsenyyteen oikeuttava jäsenmaksu sekä konttipaikan jatkovuokra on maksetava 31.5 mennessä yhdistyksen tilille.
 
 Jäsenmaksut maksetaan pankkisiirrolla pankkiin:
 

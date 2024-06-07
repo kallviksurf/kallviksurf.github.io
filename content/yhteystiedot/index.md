@@ -22,7 +22,7 @@ Sijainti Helsingissä: N 60º 11' 17.23" / E 025º 08' 18.68"
 
 Hangossa surffaustoiminta keskittyy Tulliniemeen.<br />
 
-## Hallitus 2014
+## Hallitus 2024
 
 <table>
 <tbody>

@@ -24,7 +24,7 @@ Kannatusjäsenmaksu 10 euroa tai enemmän
 
 Erillistä jäseneksi liittymisen maksua ei peritä
 
-Koko kauden jäsenyyteen oikeuttava jäsenmaksu sekä konttipaikan jatkovuokra on maksetava 31.5 mennessä yhdistyksen tilille.
+Koko kauden jäsenyyteen oikeuttava jäsenmaksu sekä konttipaikan jatkovuokra on maksettava 31.5 mennessä yhdistyksen tilille.
 
 Jäsenmaksut maksetaan pankkisiirrolla pankkiin:
 

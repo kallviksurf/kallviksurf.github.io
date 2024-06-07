@@ -9,7 +9,7 @@ title="Kuvagalleria"
 Kuvia 
 </a> viime vuoden 11.2014 Kallvikin "pikkujoulureissulta" Mauille
 
-Katso myös kuviin liittyvä<a href="/artikkelit/capo-verde-2011.html">Arin matkakertoums</a>.
+Katso myös kuviin liittyvä <a href="/artikkelit/capo-verde-2011.html">Arin matkakertoums</a>.
 
 Google+ -kuva-albumi - "Capo verde 2011"
 

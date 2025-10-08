@@ -30,7 +30,7 @@ Hangossa surffaustoiminta keskittyy Tulliniemeen.
 
 </div>
 
-## Hallitus 2024
+## Hallitus
 
 <div class="card">
 

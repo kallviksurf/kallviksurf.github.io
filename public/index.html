@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
     <head>
 	<title>
 	    Etusivu
@@ -13,138 +13,85 @@
 	<link rel="manifest" href="/site.webmanifest">
 
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="title" content="Kallvik Surf Ry" />
 	<meta name="description" content="Kallvik, surf, purjelauta, purjelautailu, surffaus, kite, windsurf, sup, silversand" />
 	<meta property="og:title" content="Kallvik Surf" />
 	<meta property="og:url" content="https://kallviksurf.fi" />
-	<style type="text/css">
-	    body {
-		background: #fff6ad url(/page_bg.jpg) bottom no-repeat;
-		/* background: #f7c64a url(/page-bg.jpg) bottom left repeat-x; */
-		background-size: 100% auto;
-		margin-bottom: 100px;
-		font-family:verdana,sans-serif;
-		font-size: 16px;
-		margin: 0px;
-		height: 100%;
-	    }
-	    a {
-		text-decoration: none;
-	    }
-	    .bigbtn {
-		background-color: #EEEEEE;
-		padding: 15px 20px;
-		text-decoration:none;
-		font-weight:bold;
-		border-radius:5px;
-		cursor:pointer;
-	    }
-	    a:visited {
-		text-decoration: none;
-	    }
-	    a:hover {
-		text-decoration: underline;
-	    }
-	    a:active {
-		text-decoration: underline;
-	    }
-	    .layout {
-		display: grid;
-		grid-template: auto 1fr auto / auto 1fr auto;
-		gap: 10px;
-		min-height: 100vh;
-	    }
-	    .header {
-		grid-column: 1 / 4;
-		background-image: url(/header.gif);
-		height: 200px;
-	    }
-	    .navi {
-		grid-column: 1 / 1;
-	    }
-	    .content {
-		grid-column: 2 / 3;
-	    }
-	    .navi ul {
-		list-style-type: none
-	    }
-	    img.thumb {
-		border: 1px solid #ddd; 
-		border-radius: 4px;  
-		padding: 5px; 
-		width: 400px; 
-	    }
-	    img[src*="#small"] {
-		border: 1px solid #ddd; 
-		border-radius: 4px;  
-		padding: 5px; 
-		width: 200px; 
-	    }
 
-	</style>
+	<link rel="stylesheet" href="/style.css">
     </head>
 
     <body>
-	<div class="layout">
-	    <div class="header"></div>
-	    <div class="navi">
-		<ul role="navigation">
-		    <li>
-			<div><a href="/">Etusivu</a></div>
-		    </li>
-		    <li>
-			<div><a href="/ilmoitukset">Ilmoitukset</a></div>
-		    </li>
-		    <li>
-			<div><a href="/toiminta">Toiminta</a></div>
-		    </li>
-		    <li>
-			<div><a href="/maastopyora">Maastopyörälenkit</a></div>
-		    </li>
-		    <li>
-			<div><a href="/liittyminen">Liittyminen ja jäsenmaksut</a> </div>
-		    </li>
-		    <li>
-			<div><a href="/koulutus">Koulutus</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/yhteystiedot">Yhteystiedot</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/galleria">Kuvagalleria</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/videot">Videot</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/harrastusalueet">Tätä tehdään</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/linkit">Linkit</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/artikkelit">Artikkelit</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/newsletter">Newsletterit</a> </div>
+	<!-- Header -->
+	<header class="header">
+	    <div class="header-content">
+		<div>
+		    <a href="/" class="logo">Kallvik Surf Ry</a>
+		    <div class="tagline">Suomen suurin surfseura</div>
+		</div>
+	    </div>
+	</header>
+
+	<!-- Navigation -->
+	<nav class="nav">
+	    <div class="nav-content">
+		<button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+		<ul role="navigation" id="main-nav">
+		    <li><a href="/">Etusivu</a></li>
+		    <li><a href="/liittyminen" class="cta">Liity jäseneksi</a></li>
+		    <li><a href="/toiminta">Toiminta</a></li>
+		    <li><a href="/galleria">Media</a></li>
+		    <li><a href="/yhteystiedot">Yhteystiedot</a></li>
+		    <li class="dropdown">
+			<a href="#" onclick="return false;">Lisää ▾</a>
+			<div class="dropdown-menu">
+			    <a href="/ilmoitukset">Ilmoitukset</a>
+			    <a href="/harrastusalueet">Tätä tehdään</a>
+			    <a href="/koulutus">Koulutus</a>
+			    <a href="/videot">Videot</a>
+			    <a href="/artikkelit">Artikkelit</a>
+			    <a href="/linkit">Linkit</a>
+			    <a href="/newsletter">Newsletterit</a>
+			    <a href="/maastopyora">Maastopyörälenkit</a>
+			</div>
 		    </li>
 		</ul>
 	    </div>
-	    <div id="content" class="content">
+	</nav>
+
+	<!-- Main content -->
+	<main class="main">
+	    <div class="content">
 		
-    <section><h1 id="kallvik-surf-ry">Kallvik Surf Ry</h1>
-<p>Kalsu on Suomen suurin surfseura, jonka toiminnassa on mukana n. 200 surffaria. Seura toimii
-sekä Kallvikissa että Hangossa.</p>
-<p>Seura on perustettu vuonna 1985 itähelsinkiläisten aktiivisurffareiden johdolla. Kallvik Surf ry:n jäsenillä on mahdollisuus testata ja
-harjoitella yhdistyksen laudoilla ja varusteilla sekä saada opastusta välineiden oikeassa ja turvallisessa käytössä.</p>
-<p><a href="liittyminen" class=bigbtn> -LIITY NYT JÄSENEKSI-</a></p>
-<p><b>Tiedoitukset ja keskustelut löytyvät seuran
-<a href="https://www.facebook.com/groups/115506131814051">Facebook</a> sivuilta
-</b>
-<a href="https://www.facebook.com/groups/115506131814051">https://www.facebook.com/groups/115506131814051</a></p>
+    <section class="hero"><h1>Kallvik Surf Ry</h1>
+<p class="lead">
+Suomen suurin surfseura, jonka toiminnassa on mukana n. 200 surffaria. Seura toimii
+sekä Kallvikissa että Hangossa.
+</p>
+<p><a href="/liittyminen" class="cta-primary">Liity jäseneksi</a></p>
+<div class="secondary-info">
+<p>
+<strong>Seura on perustettu vuonna 1985</strong> itähelsinkiläisten aktiivisurffareiden johdolla.
+</p>
+<p>
+Kallvik Surf ry:n jäsenillä on mahdollisuus testata ja harjoitella yhdistyksen laudoilla ja varusteilla sekä saada opastusta välineiden oikeassa ja turvallisessa käytössä.
+</p>
+<p>
+<strong>Tiedoitukset ja keskustelut</strong> löytyvät seuran
+<a href="https://www.facebook.com/groups/115506131814051">Facebook-ryhmästä</a>.
+</p>
+</div>
 </section>
 
 	    </div>
-	</div>
+	</main>
+
+	<!-- Mobile menu toggle script -->
+	<script>
+	    document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+		document.getElementById('main-nav').classList.toggle('mobile-open');
+	    });
+	</script>
     </body>
 </html>

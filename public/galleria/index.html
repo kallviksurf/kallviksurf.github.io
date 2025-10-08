@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
     <head>
 	<title>
 	    
-	    Kuvagalleria
+	    Media
 	    - Kallvik Surf Ry
 	</title>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -13,165 +13,124 @@
 	<link rel="manifest" href="/site.webmanifest">
 
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="title" content="Kallvik Surf Ry" />
 	<meta name="description" content="Kallvik, surf, purjelauta, purjelautailu, surffaus, kite, windsurf, sup, silversand" />
 	<meta property="og:title" content="Kallvik Surf" />
 	<meta property="og:url" content="https://kallviksurf.fi" />
-	<style type="text/css">
-	    body {
-		background: #fff6ad url(/page_bg.jpg) bottom no-repeat;
-		/* background: #f7c64a url(/page-bg.jpg) bottom left repeat-x; */
-		background-size: 100% auto;
-		margin-bottom: 100px;
-		font-family:verdana,sans-serif;
-		font-size: 16px;
-		margin: 0px;
-		height: 100%;
-	    }
-	    a {
-		text-decoration: none;
-	    }
-	    .bigbtn {
-		background-color: #EEEEEE;
-		padding: 15px 20px;
-		text-decoration:none;
-		font-weight:bold;
-		border-radius:5px;
-		cursor:pointer;
-	    }
-	    a:visited {
-		text-decoration: none;
-	    }
-	    a:hover {
-		text-decoration: underline;
-	    }
-	    a:active {
-		text-decoration: underline;
-	    }
-	    .layout {
-		display: grid;
-		grid-template: auto 1fr auto / auto 1fr auto;
-		gap: 10px;
-		min-height: 100vh;
-	    }
-	    .header {
-		grid-column: 1 / 4;
-		background-image: url(/header.gif);
-		height: 200px;
-	    }
-	    .navi {
-		grid-column: 1 / 1;
-	    }
-	    .content {
-		grid-column: 2 / 3;
-	    }
-	    .navi ul {
-		list-style-type: none
-	    }
-	    img.thumb {
-		border: 1px solid #ddd; 
-		border-radius: 4px;  
-		padding: 5px; 
-		width: 400px; 
-	    }
-	    img[src*="#small"] {
-		border: 1px solid #ddd; 
-		border-radius: 4px;  
-		padding: 5px; 
-		width: 200px; 
-	    }
 
-	</style>
+	<link rel="stylesheet" href="/style.css">
     </head>
 
     <body>
-	<div class="layout">
-	    <div class="header"></div>
-	    <div class="navi">
-		<ul role="navigation">
-		    <li>
-			<div><a href="/">Etusivu</a></div>
-		    </li>
-		    <li>
-			<div><a href="/ilmoitukset">Ilmoitukset</a></div>
-		    </li>
-		    <li>
-			<div><a href="/toiminta">Toiminta</a></div>
-		    </li>
-		    <li>
-			<div><a href="/maastopyora">Maastopyörälenkit</a></div>
-		    </li>
-		    <li>
-			<div><a href="/liittyminen">Liittyminen ja jäsenmaksut</a> </div>
-		    </li>
-		    <li>
-			<div><a href="/koulutus">Koulutus</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/yhteystiedot">Yhteystiedot</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/galleria">Kuvagalleria</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/videot">Videot</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/harrastusalueet">Tätä tehdään</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/linkit">Linkit</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/artikkelit">Artikkelit</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/newsletter">Newsletterit</a> </div>
+	<!-- Header -->
+	<header class="header">
+	    <div class="header-content">
+		<div>
+		    <a href="/" class="logo">Kallvik Surf Ry</a>
+		    <div class="tagline">Suomen suurin surfseura</div>
+		</div>
+	    </div>
+	</header>
+
+	<!-- Navigation -->
+	<nav class="nav">
+	    <div class="nav-content">
+		<button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+		<ul role="navigation" id="main-nav">
+		    <li><a href="/">Etusivu</a></li>
+		    <li><a href="/liittyminen" class="cta">Liity jäseneksi</a></li>
+		    <li><a href="/toiminta">Toiminta</a></li>
+		    <li><a href="/galleria">Media</a></li>
+		    <li><a href="/yhteystiedot">Yhteystiedot</a></li>
+		    <li class="dropdown">
+			<a href="#" onclick="return false;">Lisää ▾</a>
+			<div class="dropdown-menu">
+			    <a href="/ilmoitukset">Ilmoitukset</a>
+			    <a href="/harrastusalueet">Tätä tehdään</a>
+			    <a href="/koulutus">Koulutus</a>
+			    <a href="/videot">Videot</a>
+			    <a href="/artikkelit">Artikkelit</a>
+			    <a href="/linkit">Linkit</a>
+			    <a href="/newsletter">Newsletterit</a>
+			    <a href="/maastopyora">Maastopyörälenkit</a>
+			</div>
 		    </li>
 		</ul>
 	    </div>
-	    <div id="content" class="content">
+	</nav>
+
+	<!-- Main content -->
+	<main class="main">
+	    <div class="content">
 		
 
-    <section><h1 id="kuvagalleria">Kuvagalleria</h1>
-<a href="https://onedrive.live.com/redir?resid=D6E763492B1A1084!286&amp;authkey=!ANO3gFlFuohUlj0&amp;ithint=folder%2cjp">
-Kuvia 
-</a> viime vuoden 11.2014 Kallvikin "pikkujoulureissulta" Mauille
-<p>Katso myös kuviin liittyvä <a href="/artikkelit/capo-verde-2011.html">Arin matkakertoums</a>.</p>
-<p>Google+ -kuva-albumi - "Capo verde 2011"</p>
-<p>Surffikuvia Arilta vuoden 2011 "operaatioista" </p>
-<p>Surffikuvat 2011</p>
-<p>Google+ -kuva-albumi - "Surffikuvat 2011"</p>
-<p>Google+ -kuva-albumi - "Histori_Photos"</p>
-<h4> Austria, Bad Gastein, 2010</h4>
-<p>Google+ -kuva-albumi - "Austria, Bad Gastein, 2010"</p>
-<h4 class="sites-embed-title">CapVerde_Ari_Fish&amp;Fun</h4>
-<p>Google+ -kuva-albumi - "CapVerde_Ari_Fish&amp;Fun"</p>
-<h4 class="sites-embed-title">CapVerde_Ari_Surf</h4>
-<p>Google+ -kuva-albumi - "CapVerde_Ari_Surf"</p>
-<p>Alla olevien videoiden katselukelpoisimman kuvalaadun saat valitsemalla videon oikeasta alakulmasta <b>Google Video</b>-valinnan alta: <b>Smooth Video</b></p>
-<p><a href="http://picasaweb.google.fi/kallviksurf.ry/KalsuHistoricSlideshow?authkey=Gv1sRgCIrkk-GlvunPfQ#5490281391801838674" target="_blank"><img border="0" src="http://lh5.ggpht.com/_mMyvBG3ZNdo/TDFl1ktJLFI/AAAAAAAAASQ/jhfLCXGxcRA/s320/VTS_01_1.mpg" /></a></p>
-<p>Surffikuvia videona osa 1.</p>
-<p><a href="http://picasaweb.google.fi/kallviksurf.ry/KalsuHistoricSlideshow?authkey=Gv1sRgCIrkk-GlvunPfQ#5490296506877859538" target="_blank"><img border="0" src="http://lh4.ggpht.com/_mMyvBG3ZNdo/TDFzlYwF1tI/AAAAAAAAASk/WcgNS6IOHJA/s320/VTS_02_1.mpg" style="PADDING-BOTTOM:0px;BORDER-RIGHT-WIDTH:0px;PADDING-LEFT:0px;PADDING-RIGHT:0px;BORDER-TOP-WIDTH:0px;BORDER-BOTTOM-WIDTH:0px;BORDER-LEFT-WIDTH:0px;PADDING-TOP:0px" /></a></p>
-<p>Surffikuvia videona osa 2.</p>
-<p><a href="http://picasaweb.google.fi/kallviksurf.ry/KalsuHistoricSlideshow?authkey=Gv1sRgCIrkk-GlvunPfQ#5490307236274491010" target="_blank"><img border="0" src="http://lh6.ggpht.com/_mMyvBG3ZNdo/TDF9V63lzoI/AAAAAAAAASs/TKHlU0oB8YQ/s320/VTS_03_1.mpg" style="PADDING-BOTTOM:0px;BORDER-RIGHT-WIDTH:0px;PADDING-LEFT:0px;PADDING-RIGHT:0px;BORDER-TOP-WIDTH:0px;BORDER-BOTTOM-WIDTH:0px;BORDER-LEFT-WIDTH:0px;PADDING-TOP:0px" /></a></p>
-<p><span>Surffikuvia videona osa 3.</span></p>
-<p>Lisää aiheeseen liittyviä kuvia löydät seuraavista linkeistä:</p>
-<p><a href="http://www.tlkite.fi/" rel="nofollow">http://www.tlkite.fi/</a></p>
-<p><a href="/galleria/Konttien%20siivous.JPG"><img class="thumb" src="/galleria/Konttien%20siivous.JPG"></a></p>
-<p>Vuosikokous Kallvikin rannasa 21.4.2009. </p>
-<p><a href="/galleria/Siivous_1.JPG"><img class="thumb" src="/galleria/Siivous_1.JPG" width="200" /></a></p>
-<p>Ennen kokousta pidettiin alueen siivoustalkoot </p>
-<p><a href="/galleria/pj_Ari_ja_Merja.JPG"><img class="thumb" src="/galleria/pj_Ari_ja_Merja.JPG"></a></p>
-<p>Puheenjohtaja Ari avasi kouksen, Merja avustaa. </p>
-<a href="/galleria/L%C3%A4ht%C3%B6_I_01.jpg">
-    <img class="thumb" src="/galleria/L%C3%A4ht%C3%B6_I_01.jpg">
+    <section><h1 id="media">Media</h1>
+<p class="lead">
+Kuvia ja videoita seuran toiminnasta ja matkoilta. Lisää kuvia ja tiedotteita löydät seuran <a href="https://www.facebook.com/groups/115506131814051">Facebook-ryhmästä</a>.
+</p>
+<h2 id="reissukuvat">Reissukuvat</h2>
+<div class="card">
+<h3 id="maui-2014">Maui 2014</h3>
+<p><a href="https://onedrive.live.com/redir?resid=D6E763492B1A1084!286&amp;authkey=!ANO3gFlFuohUlj0&amp;ithint=folder%2cjp">📸 Kuvia pikkujoulureissulta Mauille (OneDrive)</a></p>
+<h3 id="capo-verde-2011">Capo Verde 2011</h3>
+<p>Surffikuvia Arilta vuoden 2011 reissulta.</p>
+<p><a href="/artikkelit/capo-verde-2011.html">📖 Lue myös Arin matkakertomus →</a></p>
+<h3 id="bad-gastein-itavalta-2010">Bad Gastein, Itävalta 2010</h3>
+<p>Talvireissun muistoja Itävallasta.</p>
+</div>
+<h2 id="kotikuvia">Kotikuvia</h2>
+<div class="card">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+<figure>
+<a href="/galleria/Konttien%20siivous.JPG">
+<img src="/galleria/Konttien%20siivous.JPG" alt="Vuosikokous">
 </a>
-<p>Kisalähtö # 1.</p>
+<figcaption>Vuosikokous Kallvikin rannalla 21.4.2009</figcaption>
+</figure>
+<figure>
+<a href="/galleria/Siivous_1.JPG">
+<img src="/galleria/Siivous_1.JPG" alt="Siivoustalkoot">
+</a>
+<figcaption>Ennen kokousta pidettiin alueen siivoustalkoot</figcaption>
+</figure>
+<figure>
+<a href="/galleria/pj_Ari_ja_Merja.JPG">
+<img src="/galleria/pj_Ari_ja_Merja.JPG" alt="Puheenjohtaja Ari ja Merja">
+</a>
+<figcaption>Puheenjohtaja Ari avasi kokouksen, Merja avustaa</figcaption>
+</figure>
+<figure>
+<a href="/galleria/L%C3%A4ht%C3%B6_I_01.jpg">
+<img src="/galleria/L%C3%A4ht%C3%B6_I_01.jpg" alt="Kisalähtö">
+</a>
+<figcaption>Kisalähtö</figcaption>
+</figure>
+</div>
+</div>
+<h2 id="videot">Videot</h2>
+<div class="card">
+<p>Katso seuran videoita <a href="/videot">Videot-sivulla</a>.</p>
+</div>
+<h2 id="linkit">Linkit</h2>
+<div class="card">
+<p><strong>Lisää kuvia aiheesta:</strong></p>
+<ul>
+<li><a href="http://www.tlkite.fi/">TL Kite</a></li>
+<li><a href="https://www.facebook.com/groups/115506131814051">Facebook-ryhmä</a></li>
+</ul>
+</div>
 </section>
 
 
 	    </div>
-	</div>
+	</main>
+
+	<!-- Mobile menu toggle script -->
+	<script>
+	    document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+		document.getElementById('main-nav').classList.toggle('mobile-open');
+	    });
+	</script>
     </body>
 </html>

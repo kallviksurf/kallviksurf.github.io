@@ -1,11 +1,5 @@
 {% extends "base.html" %}
 
 {% block content %}
-
-    {% for page in section.pages %}
-    <section>
-	{{page.date}} {{ page.content | safe }}
-    </section>
-    {% endfor %}
-
+    <section>{{ section.content | safe }}</section>
 {% endblock content %}

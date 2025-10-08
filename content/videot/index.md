@@ -4,53 +4,66 @@ title="Videot"
 
 # Videot
 
-## Frozen beach
+<p class="lead">
+Videoita seuran toiminnasta, surffauksesta ja reissuista. Lisää videoita löydät <a href="https://www.facebook.com/groups/115506131814051">Facebook-ryhmästä</a>.
+</p>
 
-Kallvik surffin jampat valloitivat Frozen beachin Tuomon kanssa.
+## Talvivideoita
 
-Pääkaupunkiseudun suurin tunturi Frozen beach ja lumi pöllyää lautojen ja suksien alla.
+<div class="card">
 
-<a href="http://www.youtube.com/watch?v=ZAZFhdR8-wI" >
-    <img class="thumb" src="Frozen%20beach.JPG" />
-</a>
+### Frozen Beach
 
-## Kalsu Arin kypäräkameralla 04
-<div>
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/mFt-xrgta54?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
+Kallvik Surfin jampat valloittivat Frozen Beachin Tuomon kanssa. Pääkaupunkiseudun suurin tunturi - Frozen Beach - ja lumi pöllyää lautojen ja suksien alla.
+
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/ZAZFhdR8-wI" title="Frozen Beach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Kalsuvideo Arin kypäräkameralla 03
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/xoGUWR5aaeY?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
 </div>
 
-## Kalsuvideo Arin kypäräkameralla 02
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/V-iYHDyWnh4?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
+## Surffausvideoita Kallvikista
+
+<div class="card">
+
+### Arin kypäräkameravideot
+
+Toimintaa Kallvikin rannasta kypäräkameran näkökulmasta.
+
+- [▶️ Kalsu Arin kypäräkameralla 04](https://www.youtube.com/watch?v=mFt-xrgta54)
+- [▶️ Kalsuvideo Arin kypäräkameralla 03](https://www.youtube.com/watch?v=xoGUWR5aaeY)
+- [▶️ Kalsuvideo Arin kypäräkameralla 02](https://www.youtube.com/watch?v=V-iYHDyWnh4)
+
+*Nämä videot eivät salli upottamista - klikkaa linkkiä katsoaksesi YouTubessa.*
+
 </div>
 
-## Hanko Silversand 19 07 2010
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/ImwRDoMm33s?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
+## Hanko Silversand
+
+<div class="card">
+
+Surffausta Hangon Silversandista.
+
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/ImwRDoMm33s" title="Hanko Silversand 19.07.2010" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Hanko Silversand Surffipäivä -07
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/S717kIItPHE?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/S717kIItPHE" title="Hanko Silversand Surffipäivä" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Voimasurffaaja.com
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/XKINldUHmpQ?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
 </div>
 
-## YouTube-video
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/-sZa0s6ouHg?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
-</div>
+## Muuta surffimateriaalia
 
-## YouTube-video
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/wxc1GI16F5g?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
-</div>
+<div class="card">
 
+**Lisää videoita YouTube:ssa:**
+
+- [▶️ Voimasurffaaja.com](https://www.youtube.com/watch?v=XKINldUHmpQ)
+- [▶️ Surffausvideo 1](https://www.youtube.com/watch?v=-sZa0s6ouHg)
+- [▶️ Surffausvideo 2](https://www.youtube.com/watch?v=wxc1GI16F5g)
+
+*Osa videoista ei salli upottamista - klikkaa linkkiä katsoaksesi YouTubessa.*
+
+</div>

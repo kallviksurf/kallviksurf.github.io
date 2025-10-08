@@ -2,55 +2,94 @@
 title="Toiminta"
 +++
 
+# Toiminta
 
-# Toiminta 
+<p class="lead">
+Toiminta luonnonvoimaisilla harrastevälineillä on ekologista ja luonnon läheistä. Siksi pidämme harrastusalueemme Kallahden niemellä siistinä ja varjelemme luontoarvoja.
+</p>
 
-Toiminta luonnonvoimaisilla harrastevälineillä on egologista ja luonnon läheistä. Siksi pidämme harrastusalueemme Kallahden niemellä siistinä ja varjelemme luontoarvoja, joita harrastusalueemme läheisyydessä on.
+## Vuosittainen toiminta
 
-Seuran vuosikokous pidetään yleensä keväällä Kallahdessa, KallvikSurfin alueella. Samalla kunnostetaan ranta-aluetta talven jäljiltä surffikuntoon.
+<div class="card">
 
-Päätoimipiste ja surffikeskus on Helsingin Kallahden niemellä.<br />
+Seuran **vuosikokous** pidetään yleensä keväällä Kallahdessa, KallvikSurfin alueella. Samalla kunnostetaan ranta-aluetta talven jäljiltä surffikuntoon.
 
-<a href="http://maps.google.fi/?ie=UTF8&amp;ll=60.187996,25.138714&amp;spn=0.002571,0.006695&amp;t=h&amp;z=17" style="outline-style:none" target="_blank">
-<span>Katso kartasta</span>
-</a>
+**Tiedoitukset ja tapahtumat** löytyvät seuran [Facebook-ryhmästä](https://www.facebook.com/groups/115506131814051).
 
-<a href="/galleria/kontti.jpg" imageanchor="1"><img border="0" height="150" src="/galleria/kontti.jpg" width="200" />
-</a>
+</div>
 
-<a href="/galleria/portti.jpg" imageanchor="1">
-<img border="0" height="150" src="/galleria/portti.jpg" width="200" />
-</a>
+## Toimipisteet
 
-Toimintaa on myös Hangon Silversandissa, erityisesti<br />
-viikonloppuisin ja lomakaudella. &nbsp;
+### Helsinki - Kallahden niemi
 
-<a href="http://maps.google.fi/?ie=UTF8&amp;ll=59.849105,22.989364&amp;spn=0.020779,0.053558&amp;t=h&amp;z=14" target="_blank">
-Katso kartasta</a>
+<div class="card">
 
-<a href="/galleria/beechlife.JPG" imageanchor="1"><img border="0" height="150" src="/galleria/beechlife.JPG" width="200" />&nbsp;</a>
+Päätoimipiste ja surffikeskus sijaitsee Helsingin Kallahden niemellä.
 
-Hanko Silversand Camping
+**[Katso kartasta →](http://maps.google.fi/?ie=UTF8&ll=60.187996,25.138714&spn=0.002571,0.006695&t=h&z=17)**
 
-<a href="/galleria/Bechlife2.JPG" imageanchor="1"><img border="0" height="150" src="/galleria/Bechlife2.JPG" width="200" /></a>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
 
-Hanko Silversand Camping
+![Kontti](/galleria/kontti.jpg)
 
-<a href="/galleria/Silversand%20Sunset.JPG" imageanchor="1"><img border="0" height="150" src="/galleria/Silversand%20Sunset.JPG" width="200" /></a>
+![Portti](/galleria/portti.jpg)
 
-Auringonlasku Silversandissa
+</div>
+
+**Surffausalueet:**
 
 Kallahden selällä, Kallvikin niemen läheisyydessä, sekä Iso Kallahdella (Apinalahti) on erinomaiset purjelautailun ja kiteilyn mahdollisuudet. Kokeneemmat lautailijat ajavat ulos Itä Villingin ja Kuiva-Hevosen välistä, vielä Tammaluodon ohi aina Eestiluodolle saakka.
 
-<a href="/galleria/KallvikSurffialueet_map.gif" imageanchor="1"><img border="0" src="/galleria/KallvikSurffialueet_map.gif" /></a><br />
+![Kallvik surffialueet](/galleria/KallvikSurffialueet_map.gif)
 
-Onpa sitä aikoinaan pitkillä laudoilla kierretty Harmaja ja käyty kahvilla&nbsp;Kaunissaaressakin saakka. Pitää kuitenkin muistaa, että ulos merelle ei tule mennä koskaan yksin, vaan aina porukan kanssa. Varusterikko tai muu vahinko voi muuten koitua kohtalokkaaksi.
+**Tuuliolosuhteet:**
 
-Luoteesta koiliseen olevat tuulet eivät tähän rantaan sovi. Lähin koilistuulelle sopiva sopiva ranta on niemen toisella puolella, Riveliniemen pohjukassa oleva matala hiekkaranta. Rannan läheisyydessä on kuitenkin varottava vedenalaisia kiviä.
+Luoteesta koiliseen olevat tuulet eivät tähän rantaan sovi. Lähin koilistuulelle sopiva ranta on niemen toisella puolella, Riveliniemen pohjukassa oleva matala hiekkaranta. Rannan läheisyydessä on kuitenkin varottava vedenalaisia kiviä.
 
-Kunnioita arvokasta luontoa, jota Kallahden niemellä suojellaan eritysiesti luonnonsuojelualueela.
+</div>
 
-<a href="/galleria/Kallvik_Suojelualue.jpg" imageanchor="1"><img border="0" height="288" src="/galleria/Kallvik_Suojelualue.jpg" width="320" /></a>
+### Hanko - Silversand
 
-Kartta: <a href="http://www.openstreetmap.org/#map=19/60.18837/25.13900" target="_blank" rel="nofollow">www.openstreetmap.org</a>
+<div class="card">
 
+Toimintaa on myös Hangon Silversandissa, erityisesti viikonloppuisin ja lomakaudella.
+
+**[Katso kartasta →](http://maps.google.fi/?ie=UTF8&ll=59.849105,22.989364&spn=0.020779,0.053558&t=h&z=14)**
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+
+![Hanko Silversand](/galleria/beechlife.JPG)
+
+![Hanko Silversand Camping](/galleria/Bechlife2.JPG)
+
+![Auringonlasku Silversandissa](/galleria/Silversand%20Sunset.JPG)
+
+</div>
+
+</div>
+
+## Turvallisuus
+
+<div class="card">
+
+⚠️ **Tärkeää muistaa:**
+
+- Älä koskaan mene ulos merelle yksin - aina porukan kanssa
+- Varusterikko tai muu vahinko voi muuten koitua kohtalokkaaksi
+- Aikoinaan pitkillä laudoilla on kierretty Harmaja ja käyty kahvilla Kaunissaaressakin, mutta turvallisuus edellä!
+
+</div>
+
+## Luonnonsuojelu
+
+<div class="card">
+
+Kunnioita arvokasta luontoa, jota Kallahden niemellä suojellaan erityisesti luonnonsuojelualueella.
+
+![Kallvik suojelualue](/galleria/Kallvik_Suojelualue.jpg)
+
+**Kartat:**
+- [OpenStreetMap - Kallvik](http://www.openstreetmap.org/#map=19/60.18837/25.13900)
+- [Google Maps - Kallvik](http://maps.google.fi/?ie=UTF8&ll=60.187996,25.138714&spn=0.002571,0.006695&t=h&z=17)
+
+</div>

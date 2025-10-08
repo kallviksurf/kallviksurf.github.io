@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
     <head>
 	<title>
 	    
@@ -13,169 +13,112 @@
 	<link rel="manifest" href="/site.webmanifest">
 
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="title" content="Kallvik Surf Ry" />
 	<meta name="description" content="Kallvik, surf, purjelauta, purjelautailu, surffaus, kite, windsurf, sup, silversand" />
 	<meta property="og:title" content="Kallvik Surf" />
 	<meta property="og:url" content="https://kallviksurf.fi" />
-	<style type="text/css">
-	    body {
-		background: #fff6ad url(/page_bg.jpg) bottom no-repeat;
-		/* background: #f7c64a url(/page-bg.jpg) bottom left repeat-x; */
-		background-size: 100% auto;
-		margin-bottom: 100px;
-		font-family:verdana,sans-serif;
-		font-size: 16px;
-		margin: 0px;
-		height: 100%;
-	    }
-	    a {
-		text-decoration: none;
-	    }
-	    .bigbtn {
-		background-color: #EEEEEE;
-		padding: 15px 20px;
-		text-decoration:none;
-		font-weight:bold;
-		border-radius:5px;
-		cursor:pointer;
-	    }
-	    a:visited {
-		text-decoration: none;
-	    }
-	    a:hover {
-		text-decoration: underline;
-	    }
-	    a:active {
-		text-decoration: underline;
-	    }
-	    .layout {
-		display: grid;
-		grid-template: auto 1fr auto / auto 1fr auto;
-		gap: 10px;
-		min-height: 100vh;
-	    }
-	    .header {
-		grid-column: 1 / 4;
-		background-image: url(/header.gif);
-		height: 200px;
-	    }
-	    .navi {
-		grid-column: 1 / 1;
-	    }
-	    .content {
-		grid-column: 2 / 3;
-	    }
-	    .navi ul {
-		list-style-type: none
-	    }
-	    img.thumb {
-		border: 1px solid #ddd; 
-		border-radius: 4px;  
-		padding: 5px; 
-		width: 400px; 
-	    }
-	    img[src*="#small"] {
-		border: 1px solid #ddd; 
-		border-radius: 4px;  
-		padding: 5px; 
-		width: 200px; 
-	    }
 
-	</style>
+	<link rel="stylesheet" href="/style.css">
     </head>
 
     <body>
-	<div class="layout">
-	    <div class="header"></div>
-	    <div class="navi">
-		<ul role="navigation">
-		    <li>
-			<div><a href="/">Etusivu</a></div>
-		    </li>
-		    <li>
-			<div><a href="/ilmoitukset">Ilmoitukset</a></div>
-		    </li>
-		    <li>
-			<div><a href="/toiminta">Toiminta</a></div>
-		    </li>
-		    <li>
-			<div><a href="/maastopyora">Maastopyörälenkit</a></div>
-		    </li>
-		    <li>
-			<div><a href="/liittyminen">Liittyminen ja jäsenmaksut</a> </div>
-		    </li>
-		    <li>
-			<div><a href="/koulutus">Koulutus</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/yhteystiedot">Yhteystiedot</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/galleria">Kuvagalleria</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/videot">Videot</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/harrastusalueet">Tätä tehdään</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/linkit">Linkit</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/artikkelit">Artikkelit</a> </div>
-		    </li>
-		    <li>
-			<div> <a href="/newsletter">Newsletterit</a> </div>
+	<!-- Header -->
+	<header class="header">
+	    <div class="header-content">
+		<div>
+		    <a href="/" class="logo">Kallvik Surf Ry</a>
+		    <div class="tagline">Suomen suurin surfseura</div>
+		</div>
+	    </div>
+	</header>
+
+	<!-- Navigation -->
+	<nav class="nav">
+	    <div class="nav-content">
+		<button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+		<ul role="navigation" id="main-nav">
+		    <li><a href="/">Etusivu</a></li>
+		    <li><a href="/liittyminen" class="cta">Liity jäseneksi</a></li>
+		    <li><a href="/toiminta">Toiminta</a></li>
+		    <li><a href="/galleria">Media</a></li>
+		    <li><a href="/yhteystiedot">Yhteystiedot</a></li>
+		    <li class="dropdown">
+			<a href="#" onclick="return false;">Lisää ▾</a>
+			<div class="dropdown-menu">
+			    <a href="/ilmoitukset">Ilmoitukset</a>
+			    <a href="/harrastusalueet">Tätä tehdään</a>
+			    <a href="/koulutus">Koulutus</a>
+			    <a href="/videot">Videot</a>
+			    <a href="/artikkelit">Artikkelit</a>
+			    <a href="/linkit">Linkit</a>
+			    <a href="/newsletter">Newsletterit</a>
+			    <a href="/maastopyora">Maastopyörälenkit</a>
+			</div>
 		    </li>
 		</ul>
 	    </div>
-	    <div id="content" class="content">
+	</nav>
+
+	<!-- Main content -->
+	<main class="main">
+	    <div class="content">
 		
 
     <section><h1 id="videot">Videot</h1>
-<h2 id="frozen-beach">Frozen beach</h2>
-<p>Kallvik surffin jampat valloitivat Frozen beachin Tuomon kanssa.</p>
-<p>Pääkaupunkiseudun suurin tunturi Frozen beach ja lumi pöllyää lautojen ja suksien alla.</p>
-<a href="http://www.youtube.com/watch?v=ZAZFhdR8-wI" >
-    <img class="thumb" src="Frozen%20beach.JPG" />
-</a>
-<h2 id="kalsu-arin-kyparakameralla-04">Kalsu Arin kypäräkameralla 04</h2>
-<div>
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/mFt-xrgta54?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
+<p class="lead">
+Videoita seuran toiminnasta, surffauksesta ja reissuista. Lisää videoita löydät <a href="https://www.facebook.com/groups/115506131814051">Facebook-ryhmästä</a>.
+</p>
+<h2 id="talvivideoita">Talvivideoita</h2>
+<div class="card">
+<h3 id="frozen-beach">Frozen Beach</h3>
+<p>Kallvik Surfin jampat valloittivat Frozen Beachin Tuomon kanssa. Pääkaupunkiseudun suurin tunturi - Frozen Beach - ja lumi pöllyää lautojen ja suksien alla.</p>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/ZAZFhdR8-wI" title="Frozen Beach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<h2 id="kalsuvideo-arin-kyparakameralla-03">Kalsuvideo Arin kypäräkameralla 03</h2>
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/xoGUWR5aaeY?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
 </div>
-<h2 id="kalsuvideo-arin-kyparakameralla-02">Kalsuvideo Arin kypäräkameralla 02</h2>
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/V-iYHDyWnh4?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
+<h2 id="surffausvideoita-kallvikista">Surffausvideoita Kallvikista</h2>
+<div class="card">
+<h3 id="arin-kyparakameravideot">Arin kypäräkameravideot</h3>
+<p>Toimintaa Kallvikin rannasta kypäräkameran näkökulmasta.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=mFt-xrgta54">▶️ Kalsu Arin kypäräkameralla 04</a></li>
+<li><a href="https://www.youtube.com/watch?v=xoGUWR5aaeY">▶️ Kalsuvideo Arin kypäräkameralla 03</a></li>
+<li><a href="https://www.youtube.com/watch?v=V-iYHDyWnh4">▶️ Kalsuvideo Arin kypäräkameralla 02</a></li>
+</ul>
+<p><em>Nämä videot eivät salli upottamista - klikkaa linkkiä katsoaksesi YouTubessa.</em></p>
 </div>
-<h2 id="hanko-silversand-19-07-2010">Hanko Silversand 19 07 2010</h2>
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/ImwRDoMm33s?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
+<h2 id="hanko-silversand">Hanko Silversand</h2>
+<div class="card">
+<p>Surffausta Hangon Silversandista.</p>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/ImwRDoMm33s" title="Hanko Silversand 19.07.2010" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<h2 id="hanko-silversand-surffipaiva-07">Hanko Silversand Surffipäivä -07</h2>
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/S717kIItPHE?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/S717kIItPHE" title="Hanko Silversand Surffipäivä" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<h2 id="voimasurffaaja-com">Voimasurffaaja.com</h2>
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/XKINldUHmpQ?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
 </div>
-<h2 id="youtube-video">YouTube-video</h2>
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/-sZa0s6ouHg?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
-</div>
-<h2 id="youtube-video-1">YouTube-video</h2>
-<div class="sites-embed-content sites-embed-type-youtube">
-    <iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/wxc1GI16F5g?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="425" height="355"></iframe>
+<h2 id="muuta-surffimateriaalia">Muuta surffimateriaalia</h2>
+<div class="card">
+<p><strong>Lisää videoita YouTube:ssa:</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=XKINldUHmpQ">▶️ Voimasurffaaja.com</a></li>
+<li><a href="https://www.youtube.com/watch?v=-sZa0s6ouHg">▶️ Surffausvideo 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=wxc1GI16F5g">▶️ Surffausvideo 2</a></li>
+</ul>
+<p><em>Osa videoista ei salli upottamista - klikkaa linkkiä katsoaksesi YouTubessa.</em></p>
 </div>
 </section>
 
 
 	    </div>
-	</div>
+	</main>
+
+	<!-- Mobile menu toggle script -->
+	<script>
+	    document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+		document.getElementById('main-nav').classList.toggle('mobile-open');
+	    });
+	</script>
     </body>
 </html>

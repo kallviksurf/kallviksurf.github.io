@@ -1,72 +1,85 @@
 +++
-title="Kuvagalleria"
+title="Media"
 +++
 
-# Kuvagalleria
+# Media
 
+<p class="lead">
+Kuvia ja videoita seuran toiminnasta ja matkoilta. Lisää kuvia ja tiedotteita löydät seuran <a href="https://www.facebook.com/groups/115506131814051">Facebook-ryhmästä</a>.
+</p>
 
-<a href="https://onedrive.live.com/redir?resid=D6E763492B1A1084!286&amp;authkey=!ANO3gFlFuohUlj0&amp;ithint=folder%2cjp">
-Kuvia 
-</a> viime vuoden 11.2014 Kallvikin "pikkujoulureissulta" Mauille
+## Reissukuvat
 
-Katso myös kuviin liittyvä <a href="/artikkelit/capo-verde-2011.html">Arin matkakertoums</a>.
+<div class="card">
 
-Google+ -kuva-albumi - "Capo verde 2011"
+### Maui 2014
 
-Surffikuvia Arilta vuoden 2011 "operaatioista"&nbsp;
+[📸 Kuvia pikkujoulureissulta Mauille (OneDrive)](https://onedrive.live.com/redir?resid=D6E763492B1A1084!286&authkey=!ANO3gFlFuohUlj0&ithint=folder%2cjp)
 
-Surffikuvat 2011
+### Capo Verde 2011
 
-Google+ -kuva-albumi - "Surffikuvat 2011"
+Surffikuvia Arilta vuoden 2011 reissulta.
 
-Google+ -kuva-albumi - "Histori_Photos"
+[📖 Lue myös Arin matkakertomus →](/artikkelit/capo-verde-2011.html)
 
-<h4> Austria, Bad Gastein, 2010</h4>
+### Bad Gastein, Itävalta 2010
 
-Google+ -kuva-albumi - "Austria, Bad Gastein, 2010"
+Talvireissun muistoja Itävallasta.
 
-<h4 class="sites-embed-title">CapVerde_Ari_Fish&amp;Fun</h4>
+</div>
 
-Google+ -kuva-albumi - "CapVerde_Ari_Fish&amp;Fun"
+## Kotikuvia
 
-<h4 class="sites-embed-title">CapVerde_Ari_Surf</h4>
+<div class="card">
 
-Google+ -kuva-albumi - "CapVerde_Ari_Surf"
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
 
-Alla olevien videoiden katselukelpoisimman kuvalaadun saat valitsemalla videon oikeasta alakulmasta <b>Google Video</b>-valinnan alta:&nbsp;<b>Smooth Video</b>
-
-<a href="http://picasaweb.google.fi/kallviksurf.ry/KalsuHistoricSlideshow?authkey=Gv1sRgCIrkk-GlvunPfQ#5490281391801838674" target="_blank"><img border="0" src="http://lh5.ggpht.com/_mMyvBG3ZNdo/TDFl1ktJLFI/AAAAAAAAASQ/jhfLCXGxcRA/s320/VTS_01_1.mpg" /></a>
-
-Surffikuvia videona osa 1.
-
-<a href="http://picasaweb.google.fi/kallviksurf.ry/KalsuHistoricSlideshow?authkey=Gv1sRgCIrkk-GlvunPfQ#5490296506877859538" target="_blank"><img border="0" src="http://lh4.ggpht.com/_mMyvBG3ZNdo/TDFzlYwF1tI/AAAAAAAAASk/WcgNS6IOHJA/s320/VTS_02_1.mpg" style="PADDING-BOTTOM:0px;BORDER-RIGHT-WIDTH:0px;PADDING-LEFT:0px;PADDING-RIGHT:0px;BORDER-TOP-WIDTH:0px;BORDER-BOTTOM-WIDTH:0px;BORDER-LEFT-WIDTH:0px;PADDING-TOP:0px" /></a>
-
-Surffikuvia videona osa 2.
-
-<a href="http://picasaweb.google.fi/kallviksurf.ry/KalsuHistoricSlideshow?authkey=Gv1sRgCIrkk-GlvunPfQ#5490307236274491010" target="_blank"><img border="0" src="http://lh6.ggpht.com/_mMyvBG3ZNdo/TDF9V63lzoI/AAAAAAAAASs/TKHlU0oB8YQ/s320/VTS_03_1.mpg" style="PADDING-BOTTOM:0px;BORDER-RIGHT-WIDTH:0px;PADDING-LEFT:0px;PADDING-RIGHT:0px;BORDER-TOP-WIDTH:0px;BORDER-BOTTOM-WIDTH:0px;BORDER-LEFT-WIDTH:0px;PADDING-TOP:0px" /></a>
-
-<span>Surffikuvia videona osa 3.</span>
-
-Lisää aiheeseen liittyviä kuvia löydät seuraavista linkeistä:
-
-<a href="http://www.tlkite.fi/" rel="nofollow">http://www.tlkite.fi/</a>
-
-<a href="/galleria/Konttien%20siivous.JPG"><img class="thumb" src="/galleria/Konttien%20siivous.JPG"></a>
-
-Vuosikokous Kallvikin rannasa 21.4.2009.&nbsp;
-
-<a href="/galleria/Siivous_1.JPG"><img class="thumb" src="/galleria/Siivous_1.JPG" width="200" /></a>
-
-Ennen kokousta pidettiin alueen siivoustalkoot&nbsp;
-
-<a href="/galleria/pj_Ari_ja_Merja.JPG"><img class="thumb" src="/galleria/pj_Ari_ja_Merja.JPG"></a>
-
-Puheenjohtaja Ari avasi kouksen,&nbsp;Merja avustaa.&nbsp;
-
-<a href="/galleria/L%C3%A4ht%C3%B6_I_01.jpg">
-    <img class="thumb" src="/galleria/L%C3%A4ht%C3%B6_I_01.jpg">
+<figure>
+<a href="/galleria/Konttien%20siivous.JPG">
+<img src="/galleria/Konttien%20siivous.JPG" alt="Vuosikokous">
 </a>
+<figcaption>Vuosikokous Kallvikin rannalla 21.4.2009</figcaption>
+</figure>
 
-Kisalähtö # 1.
+<figure>
+<a href="/galleria/Siivous_1.JPG">
+<img src="/galleria/Siivous_1.JPG" alt="Siivoustalkoot">
+</a>
+<figcaption>Ennen kokousta pidettiin alueen siivoustalkoot</figcaption>
+</figure>
 
+<figure>
+<a href="/galleria/pj_Ari_ja_Merja.JPG">
+<img src="/galleria/pj_Ari_ja_Merja.JPG" alt="Puheenjohtaja Ari ja Merja">
+</a>
+<figcaption>Puheenjohtaja Ari avasi kokouksen, Merja avustaa</figcaption>
+</figure>
 
+<figure>
+<a href="/galleria/L%C3%A4ht%C3%B6_I_01.jpg">
+<img src="/galleria/L%C3%A4ht%C3%B6_I_01.jpg" alt="Kisalähtö">
+</a>
+<figcaption>Kisalähtö</figcaption>
+</figure>
+
+</div>
+
+</div>
+
+## Videot
+
+<div class="card">
+
+Katso seuran videoita [Videot-sivulla](/videot).
+
+</div>
+
+## Linkit
+
+<div class="card">
+
+**Lisää kuvia aiheesta:**
+- [TL Kite](http://www.tlkite.fi/)
+- [Facebook-ryhmä](https://www.facebook.com/groups/115506131814051)
+
+</div>

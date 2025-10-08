@@ -482,7 +482,7 @@ figure {
             font-size: 1.25rem;
 
             .logo-image {
-                height: 40px;
+                display: none; // Hide logo on mobile, text only
             }
         }
 

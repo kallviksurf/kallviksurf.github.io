@@ -9,7 +9,7 @@ Suomen suurin surfseura, jonka toiminnassa on mukana n. 200 surffaria. Seura toi
 sekä Kallvikissa että Hangossa.
 </p>
 
-<a href="/liittyminen" class="cta-primary">Liity jäseneksi</a>
+<!-- <a href="/liittyminen" class="cta-primary">Liity jäseneksi</a> -->
 
 <div class="secondary-info">
 <p>

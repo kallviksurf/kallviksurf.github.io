@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <section>{{ section.content | safe }}</section>
+    <div class="content-wrapper">
+        <section>{{ section.content | safe }}</section>
 
-    {% for page in section.pages %}
-    <section>{{ page.content | safe }}</section>
-    {% endfor %}
+        {% for page in section.pages %}
+        <section>{{ page.content | safe }}</section>
+        {% endfor %}
+    </div>
 {% endblock content %}

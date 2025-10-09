@@ -1,5 +1,25 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <section class="hero">{{ section.content | safe }}</section>
+    <!-- Hero Banner Section -->
+    <section class="hero-banner">
+        <div class="hero-banner-content">
+            <div class="hero-text">
+                <h1>Kallvik Surf Ry</h1>
+                <p class="hero-subtitle">Suomen suurin surfseura</p>
+                <div class="hero-cta-buttons">
+                    <a href="/liittyminen" class="cta-button cta-primary">Liity jäseneksi</a>
+                    <a href="/koulutus" class="cta-button cta-secondary">Opi surffaamaan</a>
+                </div>
+            </div>
+            <div class="hero-logo">
+            <img src="/Home/low_res_banner.jpg" alt="KALLVIKSURF - SURFING SOCIETY">
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        {{ section.content | safe }}
+    </section>
 {% endblock content %}

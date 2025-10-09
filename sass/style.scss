@@ -539,6 +539,14 @@ figure {
     .main {
         padding: $spacing-lg $spacing-md;
     }
+
+    table {
+        font-size: 0.9rem;
+
+        th, td {
+            padding: $spacing-xs $spacing-sm;
+        }
+    }
 }
 
 @media (max-width: 480px) {
@@ -568,6 +576,20 @@ figure {
         .cta-primary {
             display: block;
             width: 100%;
+        }
+    }
+
+    .card {
+        overflow-x: auto;
+        padding: $spacing-md;
+    }
+
+    table {
+        font-size: 0.8rem;
+
+        th, td {
+            padding: $spacing-xs $spacing-xs;
+            word-wrap: break-word;
         }
     }
 }

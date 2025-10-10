@@ -542,6 +542,11 @@ figure {
     }
 }
 
+// Prevent body scroll when mobile menu is open
+body.mobile-menu-open {
+    overflow: hidden;
+}
+
 // Responsive design
 @media (max-width: 768px) {
     .header-nav {
@@ -566,6 +571,10 @@ figure {
                 flex-direction: column;
                 gap: 0;
                 width: 100%;
+                max-height: calc(100vh - 80px); // Prevent menu from exceeding viewport
+                overflow-y: auto; // Make menu scrollable
+                overflow-x: hidden;
+                -webkit-overflow-scrolling: touch; // Smooth scrolling on iOS
 
                 &.mobile-open {
                     display: flex;

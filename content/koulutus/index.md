@@ -8,9 +8,7 @@ Kallviksurf järjestää purjelautailun, leijalautailun ja SUP alkeisopetusta.
 
 ## Purjelautailu 
 
-044-5390183/Merja Vire 
-
-0400-377553 Arto Vire</span>
+044-5390183/Merja Vire
 
 ## Leijalautailu
 

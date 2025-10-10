@@ -65,6 +65,11 @@ a {
         display: flex;
         align-items: center;
         gap: $spacing-xl;
+
+        .header-nav-content-container {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 
     .logo {
@@ -124,6 +129,10 @@ a {
         // Dropdown for "More" menu
         .dropdown {
             position: relative;
+
+            > a {
+                white-space: nowrap; // Prevent "Lisää ▾" from breaking across lines
+            }
 
             &:hover .dropdown-menu {
                 display: block;
@@ -551,12 +560,15 @@ body.mobile-menu-open {
 @media (max-width: 768px) {
     .header-nav {
         .header-nav-content {
-            flex-wrap: wrap;
-            gap: $spacing-md;
+            display: block; // Change from flex to block for proper row stacking
+            padding: 0;
+            position: relative;
         }
 
         .logo {
             font-size: 1.25rem;
+            padding: $spacing-md;
+            display: block;
 
             .logo-image {
                 display: none; // Hide logo on mobile as requested
@@ -565,6 +577,7 @@ body.mobile-menu-open {
 
         .nav {
             width: 100%;
+            display: block;
 
             ul {
                 display: none;
@@ -575,6 +588,7 @@ body.mobile-menu-open {
                 overflow-y: auto; // Make menu scrollable
                 overflow-x: hidden;
                 -webkit-overflow-scrolling: touch; // Smooth scrolling on iOS
+                background: white; // Ensure menu has white background
 
                 &.mobile-open {
                     display: flex;
@@ -602,9 +616,10 @@ body.mobile-menu-open {
     }
 
     .mobile-menu-toggle {
-        display: block;
-        position: absolute;
-        right: $spacing-md;
+        display: flex;
+        align-items: center;
+        z-index: 101; // Stay above menu
+        padding: $spacing-sm;
     }
 
     .hero-banner {

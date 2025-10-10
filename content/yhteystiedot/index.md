@@ -36,7 +36,7 @@ Hangossa surffaustoiminta keskittyy Tulliniemeen.
 
 | Tehtävä | Nimi | Puhelinnumero | Sähköposti |
 |---------|------|---------------|------------|
-| **Puheenjohtaja** | Ari Hyvönen | +358 40 558 0006 | ari.hyvonen ÄT fazer.com |
+| **Puheenjohtaja** | Ari Hyvönen | +358 40 055 8006 | ari.hyvonen ÄT fazer.com |
 | **Sihteeri** | Tom Grönqvist | - | - |
 | **Rahastonhoitaja** | Esko Neuvonen | +358 50 604 5516 | kite-esko ÄT live.fi |
 | **Kilpailuvastaava** | Jussi Systä | +358 50 518 7293 | jpsysta ÄT gmail.com |

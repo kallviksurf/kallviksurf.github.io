@@ -68,6 +68,13 @@
 		document.getElementById('main-nav').classList.toggle('mobile-open');
 		document.body.classList.toggle('mobile-menu-open');
 	    });
+
+	    window.matchMedia('(min-width: 901px)').addEventListener('change', function(e) {
+		if (e.matches) {
+		    document.getElementById('main-nav').classList.remove('mobile-open');
+		    document.body.classList.remove('mobile-menu-open');
+		}
+	    });
 	</script>
     </body>
 </html>

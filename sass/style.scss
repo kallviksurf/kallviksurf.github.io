@@ -557,7 +557,7 @@ body.mobile-menu-open {
 }
 
 // Responsive design
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .header-nav {
         .header-nav-content {
             display: block; // Change from flex to block for proper row stacking

@@ -556,7 +556,7 @@ body.mobile-menu-open {
 }
 
 // Responsive design
-@media (max-width: 900px) {
+@media (max-width: 600px) {
     .header-nav {
         .header-nav-content {
             display: block; // Change from flex to block for proper row stacking
@@ -659,43 +659,6 @@ body.mobile-menu-open {
             padding: $spacing-xs $spacing-sm;
         }
     }
-}
-
-@media (max-width: 480px) {
-    .header-nav {
-        .logo {
-            font-size: 1.125rem;
-        }
-    }
-
-    .hero-banner {
-        min-height: 250px;
-
-        .hero-text {
-            h1 {
-                font-size: 1.75rem;
-            }
-
-            .hero-subtitle {
-                font-size: 1.125rem;
-            }
-        }
-
-        .hero-cta-buttons {
-            .cta-button {
-                font-size: 1rem;
-                padding: $spacing-sm $spacing-lg;
-            }
-        }
-    }
-
-    table {
-        font-size: 0.85rem;
-
-        th, td {
-            padding: $spacing-xs $spacing-xs;
-        }
-    }
 
     .content-wrapper {
         padding: $spacing-lg $spacing-sm;
@@ -704,14 +667,5 @@ body.mobile-menu-open {
     .card {
         overflow-x: auto;
         padding: $spacing-md;
-    }
-
-    table {
-        font-size: 0.8rem;
-
-        th, td {
-            padding: $spacing-xs $spacing-xs;
-            word-wrap: break-word;
-        }
     }
 }

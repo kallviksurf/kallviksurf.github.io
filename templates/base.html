@@ -39,11 +39,7 @@
 		    <ul role="navigation" id="main-nav">
 			<li><a href="/" {% if current_path == "/" %}class="active"{% endif %}>Etusivu</a></li>
 			<li><a href="/toiminta" {% if current_path is starting_with("/toiminta") %}class="active"{% endif %}>Toiminta</a></li>
-			<li><a href="/koulutus" {% if current_path is starting_with("/koulutus") %}class="active"{% endif %}>Koulutus</a></li>
 			<li><a href="/liittyminen" {% if current_path is starting_with("/liittyminen") %}class="active"{% endif %}>Jäsenyys</a></li>
-			<li><a href="/videot" {% if current_path is starting_with("/videot") %}class="active"{% endif %}>Videot</a></li>
-			<li><a href="/linkit" {% if current_path is starting_with("/linkit") %}class="active"{% endif %}>Linkit</a></li>
-			<li><a href="/yhteystiedot" {% if current_path is starting_with("/yhteystiedot") %}class="active"{% endif %}>Yhteystiedot</a></li>
 		    </ul>
 		</nav>
 	    </div>
@@ -68,7 +64,7 @@
 		document.body.classList.toggle('mobile-menu-open');
 	    });
 
-	    window.matchMedia('(min-width: 901px)').addEventListener('change', function(e) {
+	    window.matchMedia('(min-width: 601px)').addEventListener('change', function(e) {
 		if (e.matches) {
 		    document.getElementById('main-nav').classList.remove('mobile-open');
 		    document.body.classList.remove('mobile-menu-open');

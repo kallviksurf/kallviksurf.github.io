@@ -65,4 +65,4 @@ Liittymällä yhdistykseen sitoudut <a href="/dokumentit/Kallvik_Surf_S%C3%A4%C3
 
 ---
 
-**Kysyttävää?** Ota yhteyttä → [Yhteystiedot](/yhteystiedot)
+**Kysyttävää?** Ota yhteyttä → [Yhteystiedot](/toiminta#yhteystiedot)

@@ -8,6 +8,50 @@ title="Toiminta"
 Toiminta luonnonvoimaisilla harrastevälineillä on ekologista ja luonnon läheistä. Siksi pidämme harrastusalueemme Kallahden niemellä siistinä ja varjelemme luontoarvoja.
 </p>
 
+## Tätä tehdään
+
+### Purjelautailu
+
+<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+
+![Purjelautailu](/harrastusalueet/arin_hyppy.jpg#small)
+![Purjelautailu](/harrastusalueet/antero.jpg#small)
+![Purjelautailu](/harrastusalueet/hanko21-2.jpg#small)
+![Purjelautailu](/harrastusalueet/hanko21-1.jpg#small)
+
+</div>
+
+### Kite-lautailu
+
+<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+
+![Kite](/harrastusalueet/fu2001.jpg#small)
+![Kite](/harrastusalueet/Kite_1.JPG#small)
+![Kite](/harrastusalueet/kite1.jpg#small)
+![Kite](/harrastusalueet/vesku.jpg#small)
+
+</div>
+
+### Lumilautailu ja muut talvilajit
+
+<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+
+![Talvilautailu](/harrastusalueet/Talvilautailu.JPG#small)
+![Talvilautailu](/harrastusalueet/180px-Surfing_in_Hawaii.jpg#small)
+![Talvilautailu](/harrastusalueet/Dock_board.JPG#small)
+
+</div>
+
+### SUP-lautailu
+
+<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+
+![SUP](/harrastusalueet/Sub_sail.jpg#small)
+![SUP](/harrastusalueet/sub-lauta.jpg#small)
+![SUP](/harrastusalueet/PICT1639.JPG#small)
+
+</div>
+
 ## Vuosittainen toiminta
 
 <div class="card">

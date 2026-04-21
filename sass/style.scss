@@ -126,55 +126,6 @@ a {
             }
         }
 
-        // Dropdown for "More" menu
-        .dropdown {
-            position: relative;
-
-            > a {
-                white-space: nowrap; // Prevent "Lisää ▾" from breaking across lines
-            }
-
-            &:hover .dropdown-menu {
-                display: block;
-            }
-
-            &::after {
-                content: '';
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                height: $spacing-xs;
-                display: none;
-            }
-
-            &:hover::after {
-                display: block;
-            }
-        }
-
-        .dropdown-menu {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background: white;
-            border: 1px solid $border-light;
-            border-radius: 6px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            min-width: 200px;
-            padding: $spacing-xs 0;
-            margin-top: 2px;
-
-            a {
-                padding: $spacing-sm $spacing-md;
-                border-radius: 0;
-
-                &:hover {
-                    background: rgba($primary-blue, 0.05);
-                }
-            }
-        }
     }
 }
 
@@ -600,18 +551,6 @@ body.mobile-menu-open {
                 border-bottom: 1px solid $border-light;
             }
 
-            .dropdown-menu {
-                position: static;
-                display: block;
-                border: none;
-                box-shadow: none;
-                background: rgba($primary-blue, 0.02);
-                margin: 0;
-
-                a {
-                    padding-left: $spacing-xl;
-                }
-            }
         }
     }
 

@@ -19,6 +19,9 @@
 	<meta property="og:title" content="Kallvik Surf" />
 	<meta property="og:url" content="https://kallviksurf.fi" />
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/style.css">
     </head>
 
@@ -34,13 +37,13 @@
 
 		<nav class="nav">
 		    <ul role="navigation" id="main-nav">
-			<li><a href="/">Etusivu</a></li>
-			<li><a href="/toiminta">Toiminta</a></li>
-			<li><a href="/koulutus">Koulutus</a></li>
-			<li><a href="/liittyminen">Jäsenyys</a></li>
-			<li><a href="/videot">Videot</a></li>
-			<li><a href="/linkit">Linkit</a></li>
-			<li><a href="/yhteystiedot">Yhteystiedot</a></li>
+			<li><a href="/" {% if current_path == "/" %}class="active"{% endif %}>Etusivu</a></li>
+			<li><a href="/toiminta" {% if current_path is starting_with("/toiminta") %}class="active"{% endif %}>Toiminta</a></li>
+			<li><a href="/koulutus" {% if current_path is starting_with("/koulutus") %}class="active"{% endif %}>Koulutus</a></li>
+			<li><a href="/liittyminen" {% if current_path is starting_with("/liittyminen") %}class="active"{% endif %}>Jäsenyys</a></li>
+			<li><a href="/videot" {% if current_path is starting_with("/videot") %}class="active"{% endif %}>Videot</a></li>
+			<li><a href="/linkit" {% if current_path is starting_with("/linkit") %}class="active"{% endif %}>Linkit</a></li>
+			<li><a href="/yhteystiedot" {% if current_path is starting_with("/yhteystiedot") %}class="active"{% endif %}>Yhteystiedot</a></li>
 		    </ul>
 		</nav>
 	    </div>
@@ -50,6 +53,13 @@
 	<main class="main">
 	    {% block content %} {% endblock %}
 	</main>
+
+	<footer class="site-footer">
+	    <div class="site-footer-content">
+		<p>Kallvik Surf Ry &mdash; <a href="https://www.facebook.com/groups/kallviksurf" target="_blank" rel="noopener">Facebook</a></p>
+		<p>&copy; {{ now() | date(format="%Y") }} Kallvik Surf Ry</p>
+	    </div>
+	</footer>
 
 	<!-- Mobile menu toggle script -->
 	<script>

@@ -138,6 +138,23 @@ a {
             }
         }
 
+        .lang-switch {
+            margin-left: auto;
+
+            a {
+                color: $text-light;
+                font-weight: 500;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                letter-spacing: 0.04em;
+
+                &:hover {
+                    color: $primary-blue;
+                    background: transparent;
+                }
+            }
+        }
+
     }
 }
 

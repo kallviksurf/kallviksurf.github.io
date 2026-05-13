@@ -1,6 +1,9 @@
 # The URL the site will be built for
 base_url = "https://kallviksurf.fi"
 
+# Default site language; English is added as a secondary language.
+default_language = "fi"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -11,6 +14,32 @@ build_search_index = false
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
+
+[languages.en]
+title = "Kallvik Surf"
+build_search_index = false
+
+[languages.fi.translations]
+site_name = "Kallvik Surf Ry"
+nav_home = "Etusivu"
+nav_activities = "Toiminta"
+nav_membership = "Jäsenyys"
+hero_subtitle = "Suomen suurin surfseura"
+hero_cta_join = "Liity jäseneksi"
+hero_cta_learn = "Opi surffaamaan"
+language_switch_label = "In English"
+language_switch_short = "EN"
+
+[languages.en.translations]
+site_name = "Kallvik Surf Ry"
+nav_home = "Home"
+nav_activities = "Activities"
+nav_membership = "Membership"
+hero_subtitle = "Finland's largest surf club"
+hero_cta_join = "Become a member"
+hero_cta_learn = "Learn to surf"
+language_switch_label = "Suomeksi"
+language_switch_short = "FI"
 
 [extra]
 # Put all your custom variables here

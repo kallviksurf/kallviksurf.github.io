@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="{{ lang }}">
     <head>
 	<title>
 	    {% if section.title %}{{ section.title }}{% endif %}
 	    {% if page.title %}{{ page.title }}{% endif %}
-	    - Kallvik Surf Ry
+	    - {{ trans(key="site_name", lang=lang) }}
 	</title>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -14,7 +14,7 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="title" content="Kallvik Surf Ry" />
+	<meta name="title" content="{{ trans(key="site_name", lang=lang) }}" />
 	<meta name="description" content="Kallvik, surf, purjelauta, purjelautailu, surffaus, kite, windsurf, sup, silversand" />
 	<meta property="og:title" content="Kallvik Surf" />
 	<meta property="og:url" content="https://kallviksurf.fi" />
@@ -25,11 +25,33 @@
 	<link rel="stylesheet" href="/style.css">
     </head>
 
+    {%- set lang_prefix = "" -%}
+    {%- if lang != config.default_language -%}{%- set lang_prefix = "/" ~ lang -%}{%- endif -%}
+    {%- set home_path = lang_prefix ~ "/" -%}
+    {%- set toiminta_path = lang_prefix ~ "/toiminta" -%}
+    {%- set liittyminen_path = lang_prefix ~ "/liittyminen" -%}
+
+    {%- set translations = [] -%}
+    {%- if section and section.translations -%}{%- set translations = section.translations -%}{%- endif -%}
+    {%- if page and page.translations -%}{%- set translations = page.translations -%}{%- endif -%}
+
+    {%- set switch_href = "" -%}
+    {%- for t in translations -%}
+        {%- if t.lang != lang -%}{%- set_global switch_href = t.permalink -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if switch_href == "" -%}
+        {%- if lang == config.default_language -%}
+            {%- set_global switch_href = "/en/" -%}
+        {%- else -%}
+            {%- set_global switch_href = "/" -%}
+        {%- endif -%}
+    {%- endif -%}
+
     <body>
 	<header class="header-nav">
 	    <div class="header-nav-content">
 		<div class="header-nav-content-container">
-		    <a href="/" class="logo">
+		    <a href="{{ home_path }}" class="logo">
 			<span>KALLVIKSURF</span>
 		    </a>
 		    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
@@ -37,9 +59,10 @@
 
 		<nav class="nav">
 		    <ul role="navigation" id="main-nav">
-			<li><a href="/" {% if current_path == "/" %}class="active"{% endif %}>Etusivu</a></li>
-			<li><a href="/toiminta" {% if current_path is starting_with("/toiminta") %}class="active"{% endif %}>Toiminta</a></li>
-			<li><a href="/liittyminen" {% if current_path is starting_with("/liittyminen") %}class="active"{% endif %}>Jäsenyys</a></li>
+			<li><a href="{{ home_path }}" {% if current_path == home_path %}class="active"{% endif %}>{{ trans(key="nav_home", lang=lang) }}</a></li>
+			<li><a href="{{ toiminta_path }}" {% if current_path is starting_with(toiminta_path) %}class="active"{% endif %}>{{ trans(key="nav_activities", lang=lang) }}</a></li>
+			<li><a href="{{ liittyminen_path }}" {% if current_path is starting_with(liittyminen_path) %}class="active"{% endif %}>{{ trans(key="nav_membership", lang=lang) }}</a></li>
+			<li class="lang-switch"><a href="{{ switch_href | safe }}" hreflang="{% if lang == config.default_language %}en{% else %}fi{% endif %}">{{ trans(key="language_switch_label", lang=lang) }}</a></li>
 		    </ul>
 		</nav>
 	    </div>
@@ -52,8 +75,8 @@
 
 	<footer class="site-footer">
 	    <div class="site-footer-content">
-		<p>Kallvik Surf Ry &mdash; <a href="https://www.facebook.com/groups/115506131814051" target="_blank" rel="noopener">Facebook</a></p>
-		<p>&copy; {{ now() | date(format="%Y") }} Kallvik Surf Ry</p>
+		<p>{{ trans(key="site_name", lang=lang) }} &mdash; <a href="https://www.facebook.com/groups/115506131814051" target="_blank" rel="noopener">Facebook</a></p>
+		<p>&copy; {{ now() | date(format="%Y") }} {{ trans(key="site_name", lang=lang) }}</p>
 	    </div>
 	</footer>
 

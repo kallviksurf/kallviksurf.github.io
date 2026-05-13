@@ -5,11 +5,11 @@
     <section class="hero-banner">
         <div class="hero-banner-content">
             <div class="hero-text">
-                <h1>Kallvik Surf Ry</h1>
-                <p class="hero-subtitle">Suomen suurin surfseura</p>
+                <h1>{{ trans(key="site_name", lang=lang) }}</h1>
+                <p class="hero-subtitle">{{ trans(key="hero_subtitle", lang=lang) }}</p>
                 <div class="hero-cta-buttons">
-                    <a href="https://club.kallviksurf.fi/join" class="cta-button cta-primary">Liity jäseneksi</a>
-                    <a href="/toiminta#koulutus" class="cta-button cta-secondary">Opi surffaamaan</a>
+                    <a href="https://club.kallviksurf.fi/join" class="cta-button cta-primary">{{ trans(key="hero_cta_join", lang=lang) }}</a>
+                    <a href="{{ toiminta_path }}#koulutus" class="cta-button cta-secondary">{{ trans(key="hero_cta_learn", lang=lang) }}</a>
                 </div>
             </div>
             <div class="hero-logo">

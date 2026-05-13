@@ -62,7 +62,10 @@
 			<li><a href="{{ home_path }}" {% if current_path == home_path %}class="active"{% endif %}>{{ trans(key="nav_home", lang=lang) }}</a></li>
 			<li><a href="{{ toiminta_path }}" {% if current_path is starting_with(toiminta_path) %}class="active"{% endif %}>{{ trans(key="nav_activities", lang=lang) }}</a></li>
 			<li><a href="{{ liittyminen_path }}" {% if current_path is starting_with(liittyminen_path) %}class="active"{% endif %}>{{ trans(key="nav_membership", lang=lang) }}</a></li>
-			<li class="lang-switch"><a href="{{ switch_href | safe }}" hreflang="{% if lang == config.default_language %}en{% else %}fi{% endif %}">{{ trans(key="language_switch_label", lang=lang) }}</a></li>
+			<li class="lang-switch"><a href="{{ switch_href | safe }}" hreflang="{% if lang == config.default_language %}en{% else %}fi{% endif %}" aria-label="{{ trans(key="language_switch_label", lang=lang) }}" title="{{ trans(key="language_switch_label", lang=lang) }}">
+				<span class="lang-switch-code">{{ trans(key="language_switch_short", lang=lang) }}</span>
+				<span class="lang-switch-label">{{ trans(key="language_switch_label", lang=lang) }}</span>
+			    </a></li>
 		    </ul>
 		</nav>
 	    </div>
@@ -87,7 +90,7 @@
 		document.body.classList.toggle('mobile-menu-open');
 	    });
 
-	    window.matchMedia('(min-width: 601px)').addEventListener('change', function(e) {
+	    window.matchMedia('(min-width: 769px)').addEventListener('change', function(e) {
 		if (e.matches) {
 		    document.getElementById('main-nav').classList.remove('mobile-open');
 		    document.body.classList.remove('mobile-menu-open');

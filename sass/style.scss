@@ -142,15 +142,23 @@ a {
             margin-left: auto;
 
             a {
-                color: $text-light;
-                font-weight: 500;
-                font-size: 0.9rem;
-                text-transform: uppercase;
-                letter-spacing: 0.04em;
+                display: flex;
+                align-items: center;
+                gap: $spacing-sm;
 
                 &:hover {
-                    color: $primary-blue;
-                    background: transparent;
+                    background: rgba($primary-blue, 0.1);
+                }
+
+                .lang-switch-code {
+                    color: $text-light;
+                    font-weight: 600;
+                    font-size: 0.85rem;
+                    letter-spacing: 0.06em;
+                }
+
+                .lang-switch-label {
+                    display: none; // hidden on desktop; shown in mobile menu
                 }
             }
         }
@@ -573,7 +581,7 @@ body.mobile-menu-open {
 }
 
 // Responsive design
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .header-nav {
         .header-nav-content {
             display: block; // Change from flex to block for proper row stacking
@@ -616,6 +624,21 @@ body.mobile-menu-open {
                 border-bottom: 1px solid $border-light;
             }
 
+            .lang-switch {
+                margin-left: 0;
+
+                a {
+                    padding: $spacing-md;
+
+                    .lang-switch-code {
+                        display: none; // mobile menu shows full label instead
+                    }
+
+                    .lang-switch-label {
+                        display: inline;
+                    }
+                }
+            }
         }
     }
 

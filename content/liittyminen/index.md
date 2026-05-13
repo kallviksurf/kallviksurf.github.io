@@ -8,6 +8,18 @@ title="Liittyminen ja jäsenmaksut"
 Oletko kiinnostunut liittymään jäseneksi? Kallvik Surf ry tarjoaa sinulle ja perheellesi erinomaisen mahdollisuuden harrastaa tätä ihanan virkistävää lajia helposti ja vaivatta Helsingissä Kallahden niemellä.
 </p>
 
+<div class="card">
+
+### Liity sähköisesti
+
+Helpoin tapa: anna sähköpostiosoitteesi, lähetämme linkin jolla pääset täyttämään jäsentiedot ja saat jäsenlaskun suoraan sähköpostiisi.
+
+<a href="https://club.kallviksurf.fi/join" class="cta-button cta-primary">Liity verkossa</a>
+
+Voit myös käyttää alla olevia tilitietoja suoraan, jos haluat maksaa pankkisiirrolla.
+
+</div>
+
 ## Mitä jäsenyys tarjoaa?
 
 <div class="card">

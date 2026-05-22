@@ -191,7 +191,7 @@ Videos from club activities, surfing sessions, and trips. You'll find more video
 The Kallvik Surf crew conquered Frozen Beach with Tuomo. The greater Helsinki area's biggest "mountain" — Frozen Beach — with snow flying under boards and skis.
 
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/ZAZFhdR8-wI" title="Frozen Beach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/ZAZFhdR8-wI" title="Frozen Beach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 </div>
@@ -219,11 +219,11 @@ Action from the Kallvik beach as seen through a helmet cam.
 Surfing at Silversand in Hanko.
 
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/ImwRDoMm33s" title="Hanko Silversand 19.07.2010" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/ImwRDoMm33s" title="Hanko Silversand 19.07.2010" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/S717kIItPHE" title="Hanko Silversand surf day" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/S717kIItPHE" title="Hanko Silversand surf day" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 </div>

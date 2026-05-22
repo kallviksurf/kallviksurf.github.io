@@ -191,7 +191,7 @@ Videoita seuran toiminnasta, surffauksesta ja reissuista. Lisää videoita löyd
 Kallvik Surfin jampat valloittivat Frozen Beachin Tuomon kanssa. Pääkaupunkiseudun suurin tunturi - Frozen Beach - ja lumi pöllyää lautojen ja suksien alla.
 
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/ZAZFhdR8-wI" title="Frozen Beach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/ZAZFhdR8-wI" title="Frozen Beach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 </div>
@@ -219,11 +219,11 @@ Toimintaa Kallvikin rannasta kypäräkameran näkökulmasta.
 Surffausta Hangon Silversandista.
 
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/ImwRDoMm33s" title="Hanko Silversand 19.07.2010" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/ImwRDoMm33s" title="Hanko Silversand 19.07.2010" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/S717kIItPHE" title="Hanko Silversand Surffipäivä" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/S717kIItPHE" title="Hanko Silversand Surffipäivä" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 </div>
